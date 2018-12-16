@@ -1,0 +1,144 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    padding-top: 50px;
+    
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+section{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+    
+}
+section#contato{
+    min-height: auto;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+     background: url(../imagens/img/fundopag.jpg);
+}
+
+img.grayscale{
+    filter: url("data:imagem/svg+xml;utf8,<svg xmln=/'http://www.w3.org/2000/svg/'><filter id=/grayscale/'><feColorMatrix type=/' values=/'0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0/'\</filter><svg>#grayscale");
+    filter: gray; /*IE6=9*/
+    -webkit-filter:grayscale(100%);
+    
+}
+img.grayscale:hover{
+    filter:none;
+    -webkit-filter:grayscale(0%);
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 70px;
+   margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+.navbar{
+    background: url(../imagens/old_moon.png);
+   
+}
+
+.divslider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../imagens/img/fundopag.jpg);
+    height: auto;
+    
+   
+}
+.div_colorido0{
+    background: url(../imagens/img/fundopag.jpg); 
+    margin-top: 60px;
+}
+
+.div_colorida{
+    background:  url(../imagens/img/restaurant.png);
+}
+.servicos_item{
+    text-align: center;
+    
+}
+
+}
+h4{
+    font-size: 25px;
+   text-align: center;
+}
+.servicos_item h4{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.servicos_btn_todosservicos{
+    margin-top: 25px;
+}
+.veja_item{
+   text-align: center;
+}
+.veja_row{
+    margin-bottom: 20px;
+}
+.veja_row:last-child{
+    margin-bottom: 0px;
+}
+.veja_item h4{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+.contato textarea{
+    height: 170px;
+}
+contato.aviso{
+    padding: 15px;
+}
+.font{
+    font-size:  200px;
+    margin-top: 10px;
+}
+
+
+.text{
+    font-size: 12px;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.carousel slide{
+    width: 100%;
+
+}
+.carousel0 slide{
+    width: 5%;
+}
+#divExterna{
+    background: url(../imagens/img/fundopag.jpg);
+}
+.jumbotron {
+    padding-top: 5px;
+}
+
+   
+}
+.sub{
+    color: red;
+    background-color: red;
+    font-family: 100px;
+}
